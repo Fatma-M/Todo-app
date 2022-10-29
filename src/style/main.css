@@ -220,6 +220,8 @@ main {
   margin: 30px auto;
   color: #af0808;
 }
+
+
 .remove {
   background: none;
   border: none;
@@ -285,6 +287,10 @@ footer button {
 }
 
 @media (max-width: 600px) {
+  .empty {
+  padding: 20px;
+}
+  
   footer {
     flex-wrap: wrap;
   }
